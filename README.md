@@ -112,7 +112,7 @@ command line interface end to end.
 - Chatterjee & Price (1977); Dillon & Goldstein (1984) — the
   sum-of-reciprocal-eigenvalues rule.
 - Khvorykh, G., Khrunin, A., 2025. Determinant-based grouping of SNPs and its application for detecting disease-associated genomic loci. NAR Genomics and Bioinformatics 7. https://doi.org/10.1093/nargab/lqaf024
-- The method is developed and validated in the LS matrix partition study (in preparation)
+- The method is developed and validated in the LD matrix partition study (in preparation)
 
   
 ## License
