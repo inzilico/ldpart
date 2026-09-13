@@ -1,3 +1,7 @@
+[![tests](https://github.com/inzilico/ldpart/actions/workflows/tests.yml/badge.svg)](https://github.com/inzilico/ldpart/actions/workflows/tests.yml)
+[![PyPI](https://img.shields.io/pypi/v/ldpart)](https://pypi.org/project/ldpart/)
+[![Python](https://img.shields.io/pypi/pyversions/ldpart)](https://pypi.org/project/ldpart/)
+
 # Linkage Disequilibrium Partition (ldpart)
 
 Certified multicollinearity partitioning of linkage disequilibrium (LD) matrices: group SNPs
