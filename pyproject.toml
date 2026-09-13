@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ldpart"
+version = "0.1.0"
+description = "Certified multicollinearity partitioning of LD matrices into blocks of correlated SNPs"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Gennady Khvorykh", email = "info@inzilico.com" }]
+keywords = [
+    "linkage disequilibrium",
+    "LD blocks",
+    "multicollinearity",
+    "variance inflation factor",
+    "population genetics",
+    "genetics",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy>=1.20",
+    "h5py>=3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/gkhvorykh/ldpart"
+Documentation = "https://github.com/gkhvorykh/ldpart#readme"
+
+[project.scripts]
+ldpart = "ldpart.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
