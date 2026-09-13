@@ -1,6 +1,6 @@
-# ldpart
+# Linkage Disequilibrium Partition (ldpart)
 
-Certified multicollinearity partitioning of LD matrices: group SNPs
+Certified multicollinearity partitioning of linkage disequilibrium (LD) matrices: group SNPs
 into contiguous blocks of correlated SNPs with greedy criteria built
 on classical multicollinearity diagnostics.
 
@@ -117,3 +117,7 @@ command line interface end to end.
 ## License
 
 MIT © Gennady Khvorykh
+
+## Author
+
+Gennady Khvorykh, info [at] inzilico.com
